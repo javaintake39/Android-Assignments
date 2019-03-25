@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NotesApp</string>
+    <string name="next">Next</string>
+    <string name="close">Close</string>
+    <string name="noteTitle">Note Title</string>
+    <string name="noteBody">Note Body</string>
+    <string name="back">Back</string>
+</resources>
