@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    tools:context=".Activity.NoteActivity">
+    <ListView
+        android:layout_alignParentTop="true"
+        android:background="#E5E7E9"
+        android:layout_marginBottom="80dp"
+        android:layout_above="@+id/noteBody"
+        android:id="@+id/noteListview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+    <EditText
+        android:layout_above="@+id/noteBody"
+        android:id="@+id/noteTitle"
+        android:hint="Note Title"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_above="@+id/btnAddNote"
+        android:id="@+id/noteBody"
+        android:hint="Note Body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btnAddNote"
+        android:text="Add New Note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
